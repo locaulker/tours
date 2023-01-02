@@ -1,7 +1,8 @@
-import React from 'react';
-import Tour from './Tour';
-const Tours = () => {
-  return <h2>tours component</h2>;
-};
+import React from "react"
+import Tour from "./Tour"
 
-export default Tours;
+const Tours = ({ tours }) => {
+  return <section>Tours Component</section>
+}
+
+export default Tours
